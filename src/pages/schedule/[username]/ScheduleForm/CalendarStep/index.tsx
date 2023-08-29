@@ -51,6 +51,7 @@ export function CalendarStep({ onSelectDateTime }: CalendarStepProps) {
         },
       })
 
+      console.log(response.data)
       return response.data
     },
     {
